@@ -111,7 +111,6 @@ sentinel down-after-milliseconds mymaster 5000
 sentinel failover-timeout mymaster 60000
 sentinel parallel-syncs mymaster 1
 sentinel auth-pass mymaster Admin
-#********************************************
 
 ```
 Starting Redis in sentinel mode
