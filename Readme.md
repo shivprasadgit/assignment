@@ -80,9 +80,11 @@ docker run -d --rm --name redis-2 `
 
 ```
 cd client\
-docker build . -t aimvector/redis-client:v1.0.0
+docker build . -t shivprasad/redis-client:v1.0.0
 
 docker run -it --net redis -e REDIS_HOST=redis-0 -e REDIS_PORT=6379 -e REDIS_PASSWORD="a-very-complex-password-here" -p 80:80 shivprasad/redis-client:v1.0.0
+
+Access URL:- http://100.26.226.44
 
 ```
 
